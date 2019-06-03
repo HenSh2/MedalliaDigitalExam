@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		998F382822A56DBF00ADAA59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998F382722A56DBF00ADAA59 /* AppDelegate.swift */; };
+		998F382A22A56DBF00ADAA59 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998F382922A56DBF00ADAA59 /* MainVC.swift */; };
+		998F382D22A56DBF00ADAA59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 998F382B22A56DBF00ADAA59 /* Main.storyboard */; };
+		998F382F22A56DC000ADAA59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 998F382E22A56DC000ADAA59 /* Assets.xcassets */; };
+		998F383222A56DC000ADAA59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 998F383022A56DC000ADAA59 /* LaunchScreen.storyboard */; };
+		998F383A22A56EEB00ADAA59 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998F383922A56EEB00ADAA59 /* ApiService.swift */; };
+		998F383C22A5748900ADAA59 /* ActionParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998F383B22A5748900ADAA59 /* ActionParser.swift */; };
+		998F383E22A574B900ADAA59 /* MedalliaAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998F383D22A574B900ADAA59 /* MedalliaAction.swift */; };
+		998F384022A57C0F00ADAA59 /* MainVCVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998F383F22A57C0F00ADAA59 /* MainVCVM.swift */; };
+		998F384222A5879600ADAA59 /* CDService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998F384122A5879600ADAA59 /* CDService.swift */; };
+		998F384522A5882500ADAA59 /* MedalliaDigitalExam.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 998F384322A5882500ADAA59 /* MedalliaDigitalExam.xcdatamodeld */; };
+		998F386B22A5A66E00ADAA59 /* PopupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998F386A22A5A66E00ADAA59 /* PopupVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		998F382422A56DBF00ADAA59 /* MedalliaDigitalExam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedalliaDigitalExam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		998F382722A56DBF00ADAA59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		998F382922A56DBF00ADAA59 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		998F382C22A56DBF00ADAA59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		998F382E22A56DC000ADAA59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		998F383122A56DC000ADAA59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		998F383322A56DC000ADAA59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		998F383922A56EEB00ADAA59 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		998F383B22A5748900ADAA59 /* ActionParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionParser.swift; sourceTree = "<group>"; };
+		998F383D22A574B900ADAA59 /* MedalliaAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedalliaAction.swift; sourceTree = "<group>"; };
+		998F383F22A57C0F00ADAA59 /* MainVCVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVCVM.swift; sourceTree = "<group>"; };
+		998F384122A5879600ADAA59 /* CDService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDService.swift; sourceTree = "<group>"; };
+		998F384422A5882500ADAA59 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		998F386A22A5A66E00ADAA59 /* PopupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		998F382122A56DBF00ADAA59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		998F381B22A56DBF00ADAA59 = {
+			isa = PBXGroup;
+			children = (
+				998F382622A56DBF00ADAA59 /* MedalliaDigitalExam */,
+				998F382522A56DBF00ADAA59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		998F382522A56DBF00ADAA59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				998F382422A56DBF00ADAA59 /* MedalliaDigitalExam.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		998F382622A56DBF00ADAA59 /* MedalliaDigitalExam */ = {
+			isa = PBXGroup;
+			children = (
+				998F386922A5A62C00ADAA59 /* Popup */,
+				998F384722A58CE000ADAA59 /* Model */,
+				998F384622A58CCE00ADAA59 /* Main */,
+				998F382722A56DBF00ADAA59 /* AppDelegate.swift */,
+				998F382B22A56DBF00ADAA59 /* Main.storyboard */,
+				998F382E22A56DC000ADAA59 /* Assets.xcassets */,
+				998F383022A56DC000ADAA59 /* LaunchScreen.storyboard */,
+				998F383322A56DC000ADAA59 /* Info.plist */,
+				998F383922A56EEB00ADAA59 /* ApiService.swift */,
+				998F383B22A5748900ADAA59 /* ActionParser.swift */,
+				998F384122A5879600ADAA59 /* CDService.swift */,
+				998F384322A5882500ADAA59 /* MedalliaDigitalExam.xcdatamodeld */,
+			);
+			path = MedalliaDigitalExam;
+			sourceTree = "<group>";
+		};
+		998F384622A58CCE00ADAA59 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				998F382922A56DBF00ADAA59 /* MainVC.swift */,
+				998F383F22A57C0F00ADAA59 /* MainVCVM.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		998F384722A58CE000ADAA59 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				998F383D22A574B900ADAA59 /* MedalliaAction.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		998F386922A5A62C00ADAA59 /* Popup */ = {
+			isa = PBXGroup;
+			children = (
+				998F386A22A5A66E00ADAA59 /* PopupVC.swift */,
+			);
+			path = Popup;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		998F382322A56DBF00ADAA59 /* MedalliaDigitalExam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 998F383622A56DC000ADAA59 /* Build configuration list for PBXNativeTarget "MedalliaDigitalExam" */;
+			buildPhases = (
+				998F382022A56DBF00ADAA59 /* Sources */,
+				998F382122A56DBF00ADAA59 /* Frameworks */,
+				998F382222A56DBF00ADAA59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MedalliaDigitalExam;
+			productName = MedalliaDigitalExam;
+			productReference = 998F382422A56DBF00ADAA59 /* MedalliaDigitalExam.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		998F381C22A56DBF00ADAA59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Hen Shabat";
+				TargetAttributes = {
+					998F382322A56DBF00ADAA59 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 998F381F22A56DBF00ADAA59 /* Build configuration list for PBXProject "MedalliaDigitalExam" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 998F381B22A56DBF00ADAA59;
+			productRefGroup = 998F382522A56DBF00ADAA59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				998F382322A56DBF00ADAA59 /* MedalliaDigitalExam */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		998F382222A56DBF00ADAA59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				998F383222A56DC000ADAA59 /* LaunchScreen.storyboard in Resources */,
+				998F382F22A56DC000ADAA59 /* Assets.xcassets in Resources */,
+				998F382D22A56DBF00ADAA59 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		998F382022A56DBF00ADAA59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				998F384222A5879600ADAA59 /* CDService.swift in Sources */,
+				998F383C22A5748900ADAA59 /* ActionParser.swift in Sources */,
+				998F382A22A56DBF00ADAA59 /* MainVC.swift in Sources */,
+				998F384522A5882500ADAA59 /* MedalliaDigitalExam.xcdatamodeld in Sources */,
+				998F384022A57C0F00ADAA59 /* MainVCVM.swift in Sources */,
+				998F382822A56DBF00ADAA59 /* AppDelegate.swift in Sources */,
+				998F386B22A5A66E00ADAA59 /* PopupVC.swift in Sources */,
+				998F383E22A574B900ADAA59 /* MedalliaAction.swift in Sources */,
+				998F383A22A56EEB00ADAA59 /* ApiService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		998F382B22A56DBF00ADAA59 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				998F382C22A56DBF00ADAA59 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		998F383022A56DC000ADAA59 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				998F383122A56DC000ADAA59 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		998F383422A56DC000ADAA59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		998F383522A56DC000ADAA59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		998F383722A56DC000ADAA59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MedalliaDigitalExam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hensh.MedalliaDigitalExam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		998F383822A56DC000ADAA59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MedalliaDigitalExam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hensh.MedalliaDigitalExam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		998F381F22A56DBF00ADAA59 /* Build configuration list for PBXProject "MedalliaDigitalExam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				998F383422A56DC000ADAA59 /* Debug */,
+				998F383522A56DC000ADAA59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		998F383622A56DC000ADAA59 /* Build configuration list for PBXNativeTarget "MedalliaDigitalExam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				998F383722A56DC000ADAA59 /* Debug */,
+				998F383822A56DC000ADAA59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		998F384322A5882500ADAA59 /* MedalliaDigitalExam.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				998F384422A5882500ADAA59 /* Model.xcdatamodel */,
+			);
+			currentVersion = 998F384422A5882500ADAA59 /* Model.xcdatamodel */;
+			path = MedalliaDigitalExam.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 998F381C22A56DBF00ADAA59 /* Project object */;
+}
