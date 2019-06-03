@@ -58,7 +58,6 @@ class MainVC: UIViewController {
             print("No action available at this moment")
             return
         }
-        print(actionToShow.priority)
         CDService.updateTrigger(actionToShow)
         guard let type = ActionType(rawValue: actionToShow.type ?? "") else { return }
         switch type {
